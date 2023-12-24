@@ -99,6 +99,7 @@ class _PostScreenState extends State<PostScreen> {
                     padding: const EdgeInsets.all(8.0),
                     child: Center(
                       child: Column(
+
                         crossAxisAlignment: CrossAxisAlignment.center,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
