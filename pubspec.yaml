@@ -20,6 +20,8 @@ dependencies:
   flutter_screenutil: ^5.7.0
   flutter_flavorizr: ^2.1.6
   pull_to_refresh: ^2.0.0
+  shared_preferences: ^2.2.2
+  data_connection_checker_nulls: ^0.0.2
 
 dev_dependencies:
   flutter_test:

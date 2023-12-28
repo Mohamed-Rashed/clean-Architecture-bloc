@@ -4,10 +4,10 @@ import 'package:flutter/services.dart';
 import 'app.dart';
 import 'flavors.dart';
 
-void main() {
+Future<void> main() async {
   F.appFlavor = Flavor.pro;
   WidgetsFlutterBinding.ensureInitialized();
-  ServicesLocator().init();
+  await ServicesLocator().init();
   SystemChrome.setPreferredOrientations(<DeviceOrientation>[
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
